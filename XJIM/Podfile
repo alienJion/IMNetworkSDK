@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'XJIM' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+#  pod 'SVProgressHUD' #消息提示
+#  pod 'MBProgressHUD'
+#  pod 'IQKeyboardManager', '~> 5.0.7'#键盘
+#  pod 'AFNetworking',  '~> 3.2.1'#网络请求
+#  pod 'FDFullscreenPopGesture' #禁用和开启系统导航栏、全屏侧滑返回手势
+#  pod 'Masonry'
+#  pod 'MJRefresh'
+#  pod 'TZImagePickerController', '~> 3.0.8'
+#  pod 'DZNEmptyDataSet', '~> 1.8.1'
+#  pod 'FMDB', '~>2.7.5'
+  pod 'ReactiveObjC', '~> 3.1.0'
+  pod'matrix-wechat'#腾讯卡顿检查、崩溃
+#  pod 'YYModel'
+#  pod 'YYCache'
+#  pod 'YYWebImage'
+  #IM
+  pod 'CocoaAsyncSocket'#长链接
+  pod 'Protobuf'#数据序列化
+end

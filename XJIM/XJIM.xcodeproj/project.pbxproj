@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93E53F4322B2768D00CDA4E4 /* SocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F1422B2768D00CDA4E4 /* SocketManager.m */; };
+		93E53F4422B2768D00CDA4E4 /* SendMsgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F1622B2768D00CDA4E4 /* SendMsgModel.m */; };
+		93E53F4522B2768D00CDA4E4 /* ChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F1922B2768D00CDA4E4 /* ChatManager.m */; };
+		93E53F4622B2768D00CDA4E4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F1B22B2768D00CDA4E4 /* Reachability.m */; };
+		93E53F4722B2768D00CDA4E4 /* MsgChat.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F2322B2768D00CDA4E4 /* MsgChat.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F4A22B2768D00CDA4E4 /* MsgHeader.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F2622B2768D00CDA4E4 /* MsgHeader.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F4B22B2768D00CDA4E4 /* MsgTyping.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F2A22B2768D00CDA4E4 /* MsgTyping.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F4E22B2768D00CDA4E4 /* MsgShake.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F2E22B2768D00CDA4E4 /* MsgShake.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F4F22B2768D00CDA4E4 /* MsgLogout.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F2F22B2768D00CDA4E4 /* MsgLogout.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F5022B2768D00CDA4E4 /* MsgRegist.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F3022B2768D00CDA4E4 /* MsgRegist.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F5222B2768D00CDA4E4 /* MsgStatuscode.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F3422B2768D00CDA4E4 /* MsgStatuscode.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F5322B2768D00CDA4E4 /* MsgType.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F3522B2768D00CDA4E4 /* MsgType.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F5822B2768D00CDA4E4 /* MsgHeartbeat.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F3E22B2768D00CDA4E4 /* MsgHeartbeat.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F5B22B2768D00CDA4E4 /* MsgLogin.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F4222B2768D00CDA4E4 /* MsgLogin.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93ED159C22B0A2C6001EE9E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93ED159B22B0A2C6001EE9E6 /* AppDelegate.m */; };
+		93ED159F22B0A2C6001EE9E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93ED159E22B0A2C6001EE9E6 /* ViewController.m */; };
+		93ED15A222B0A2C6001EE9E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93ED15A022B0A2C6001EE9E6 /* Main.storyboard */; };
+		93ED15A422B0A2C7001EE9E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93ED15A322B0A2C7001EE9E6 /* Assets.xcassets */; };
+		93ED15A722B0A2C7001EE9E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93ED15A522B0A2C7001EE9E6 /* LaunchScreen.storyboard */; };
+		93ED15AA22B0A2C7001EE9E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93ED15A922B0A2C7001EE9E6 /* main.m */; };
+		C026B55EF3C6B92D2E8D1870 /* Pods_XJIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7080EB38332FC5FE5E7E37 /* Pods_XJIM.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15BC308D218592F812E51B46 /* Pods-XJIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJIM.release.xcconfig"; path = "Target Support Files/Pods-XJIM/Pods-XJIM.release.xcconfig"; sourceTree = "<group>"; };
+		6EC261792ACBF914EFADC0B1 /* Pods-XJIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJIM.debug.xcconfig"; path = "Target Support Files/Pods-XJIM/Pods-XJIM.debug.xcconfig"; sourceTree = "<group>"; };
+		7A7080EB38332FC5FE5E7E37 /* Pods_XJIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E53F1322B2768D00CDA4E4 /* SocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketManager.h; sourceTree = "<group>"; };
+		93E53F1422B2768D00CDA4E4 /* SocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketManager.m; sourceTree = "<group>"; };
+		93E53F1622B2768D00CDA4E4 /* SendMsgModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMsgModel.m; sourceTree = "<group>"; };
+		93E53F1722B2768D00CDA4E4 /* ChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatManager.h; sourceTree = "<group>"; };
+		93E53F1822B2768D00CDA4E4 /* SendMsgModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMsgModel.h; sourceTree = "<group>"; };
+		93E53F1922B2768D00CDA4E4 /* ChatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatManager.m; sourceTree = "<group>"; };
+		93E53F1B22B2768D00CDA4E4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		93E53F1C22B2768D00CDA4E4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		93E53F1F22B2768D00CDA4E4 /* UIHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHeader.h; sourceTree = "<group>"; };
+		93E53F2022B2768D00CDA4E4 /* RequestHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestHeader.h; sourceTree = "<group>"; };
+		93E53F2122B2768D00CDA4E4 /* FileHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHeader.h; sourceTree = "<group>"; };
+		93E53F2322B2768D00CDA4E4 /* MsgChat.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgChat.pbobjc.m; sourceTree = "<group>"; };
+		93E53F2622B2768D00CDA4E4 /* MsgHeader.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgHeader.pbobjc.m; sourceTree = "<group>"; };
+		93E53F2722B2768D00CDA4E4 /* MsgType.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgType.pbobjc.h; sourceTree = "<group>"; };
+		93E53F2822B2768D00CDA4E4 /* MsgProtobufHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgProtobufHeader.h; sourceTree = "<group>"; };
+		93E53F2922B2768D00CDA4E4 /* MsgStatuscode.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgStatuscode.pbobjc.h; sourceTree = "<group>"; };
+		93E53F2A22B2768D00CDA4E4 /* MsgTyping.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgTyping.pbobjc.m; sourceTree = "<group>"; };
+		93E53F2B22B2768D00CDA4E4 /* MsgHeartbeat.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgHeartbeat.pbobjc.h; sourceTree = "<group>"; };
+		93E53F2E22B2768D00CDA4E4 /* MsgShake.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgShake.pbobjc.m; sourceTree = "<group>"; };
+		93E53F2F22B2768D00CDA4E4 /* MsgLogout.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgLogout.pbobjc.m; sourceTree = "<group>"; };
+		93E53F3022B2768D00CDA4E4 /* MsgRegist.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgRegist.pbobjc.m; sourceTree = "<group>"; };
+		93E53F3122B2768D00CDA4E4 /* MsgLogin.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgLogin.pbobjc.h; sourceTree = "<group>"; };
+		93E53F3322B2768D00CDA4E4 /* MsgChat.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgChat.pbobjc.h; sourceTree = "<group>"; };
+		93E53F3422B2768D00CDA4E4 /* MsgStatuscode.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgStatuscode.pbobjc.m; sourceTree = "<group>"; };
+		93E53F3522B2768D00CDA4E4 /* MsgType.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgType.pbobjc.m; sourceTree = "<group>"; };
+		93E53F3622B2768D00CDA4E4 /* MsgHeader.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgHeader.pbobjc.h; sourceTree = "<group>"; };
+		93E53F3722B2768D00CDA4E4 /* MsgRegist.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgRegist.pbobjc.h; sourceTree = "<group>"; };
+		93E53F3822B2768D00CDA4E4 /* MsgLogout.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgLogout.pbobjc.h; sourceTree = "<group>"; };
+		93E53F3B22B2768D00CDA4E4 /* MsgShake.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgShake.pbobjc.h; sourceTree = "<group>"; };
+		93E53F3E22B2768D00CDA4E4 /* MsgHeartbeat.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgHeartbeat.pbobjc.m; sourceTree = "<group>"; };
+		93E53F4022B2768D00CDA4E4 /* MsgTyping.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgTyping.pbobjc.h; sourceTree = "<group>"; };
+		93E53F4222B2768D00CDA4E4 /* MsgLogin.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgLogin.pbobjc.m; sourceTree = "<group>"; };
+		93ED159722B0A2C6001EE9E6 /* XJIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93ED159A22B0A2C6001EE9E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93ED159B22B0A2C6001EE9E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93ED159D22B0A2C6001EE9E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		93ED159E22B0A2C6001EE9E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		93ED15A122B0A2C6001EE9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93ED15A322B0A2C7001EE9E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93ED15A622B0A2C7001EE9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93ED15A822B0A2C7001EE9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93ED15A922B0A2C7001EE9E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93ED159422B0A2C6001EE9E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C026B55EF3C6B92D2E8D1870 /* Pods_XJIM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A4F1DA45C5C2243F89CE1B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A7080EB38332FC5FE5E7E37 /* Pods_XJIM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93E53F1022B2768D00CDA4E4 /* IMNetworkSDK */ = {
+			isa = PBXGroup;
+			children = (
+				93E53F1122B2768D00CDA4E4 /* Tools */,
+				93E53F1D22B2768D00CDA4E4 /* Config */,
+			);
+			path = IMNetworkSDK;
+			sourceTree = SOURCE_ROOT;
+		};
+		93E53F1122B2768D00CDA4E4 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				93E53F1222B2768D00CDA4E4 /* SocketManager */,
+				93E53F1522B2768D00CDA4E4 /* Manager */,
+				93E53F1A22B2768D00CDA4E4 /* NetworkTest */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		93E53F1222B2768D00CDA4E4 /* SocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				93E53F1322B2768D00CDA4E4 /* SocketManager.h */,
+				93E53F1422B2768D00CDA4E4 /* SocketManager.m */,
+			);
+			path = SocketManager;
+			sourceTree = "<group>";
+		};
+		93E53F1522B2768D00CDA4E4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				93E53F1722B2768D00CDA4E4 /* ChatManager.h */,
+				93E53F1922B2768D00CDA4E4 /* ChatManager.m */,
+				93E53F1822B2768D00CDA4E4 /* SendMsgModel.h */,
+				93E53F1622B2768D00CDA4E4 /* SendMsgModel.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		93E53F1A22B2768D00CDA4E4 /* NetworkTest */ = {
+			isa = PBXGroup;
+			children = (
+				93E53F1C22B2768D00CDA4E4 /* Reachability.h */,
+				93E53F1B22B2768D00CDA4E4 /* Reachability.m */,
+			);
+			path = NetworkTest;
+			sourceTree = "<group>";
+		};
+		93E53F1D22B2768D00CDA4E4 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				93E53F1E22B2768D00CDA4E4 /* PrefixHeader */,
+				93E53F2222B2768D00CDA4E4 /* Protobuf */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		93E53F1E22B2768D00CDA4E4 /* PrefixHeader */ = {
+			isa = PBXGroup;
+			children = (
+				93E53F1F22B2768D00CDA4E4 /* UIHeader.h */,
+				93E53F2022B2768D00CDA4E4 /* RequestHeader.h */,
+				93E53F2122B2768D00CDA4E4 /* FileHeader.h */,
+			);
+			path = PrefixHeader;
+			sourceTree = "<group>";
+		};
+		93E53F2222B2768D00CDA4E4 /* Protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				93E53F3322B2768D00CDA4E4 /* MsgChat.pbobjc.h */,
+				93E53F2322B2768D00CDA4E4 /* MsgChat.pbobjc.m */,
+				93E53F3622B2768D00CDA4E4 /* MsgHeader.pbobjc.h */,
+				93E53F2622B2768D00CDA4E4 /* MsgHeader.pbobjc.m */,
+				93E53F2B22B2768D00CDA4E4 /* MsgHeartbeat.pbobjc.h */,
+				93E53F3E22B2768D00CDA4E4 /* MsgHeartbeat.pbobjc.m */,
+				93E53F3122B2768D00CDA4E4 /* MsgLogin.pbobjc.h */,
+				93E53F4222B2768D00CDA4E4 /* MsgLogin.pbobjc.m */,
+				93E53F3822B2768D00CDA4E4 /* MsgLogout.pbobjc.h */,
+				93E53F2F22B2768D00CDA4E4 /* MsgLogout.pbobjc.m */,
+				93E53F2822B2768D00CDA4E4 /* MsgProtobufHeader.h */,
+				93E53F3722B2768D00CDA4E4 /* MsgRegist.pbobjc.h */,
+				93E53F3022B2768D00CDA4E4 /* MsgRegist.pbobjc.m */,
+				93E53F3B22B2768D00CDA4E4 /* MsgShake.pbobjc.h */,
+				93E53F2E22B2768D00CDA4E4 /* MsgShake.pbobjc.m */,
+				93E53F2922B2768D00CDA4E4 /* MsgStatuscode.pbobjc.h */,
+				93E53F3422B2768D00CDA4E4 /* MsgStatuscode.pbobjc.m */,
+				93E53F2722B2768D00CDA4E4 /* MsgType.pbobjc.h */,
+				93E53F3522B2768D00CDA4E4 /* MsgType.pbobjc.m */,
+				93E53F4022B2768D00CDA4E4 /* MsgTyping.pbobjc.h */,
+				93E53F2A22B2768D00CDA4E4 /* MsgTyping.pbobjc.m */,
+			);
+			path = Protobuf;
+			sourceTree = "<group>";
+		};
+		93ED158E22B0A2C6001EE9E6 = {
+			isa = PBXGroup;
+			children = (
+				93ED159922B0A2C6001EE9E6 /* XJIM */,
+				93ED159822B0A2C6001EE9E6 /* Products */,
+				9A62782EF572AD8A2A3FBF68 /* Pods */,
+				5A4F1DA45C5C2243F89CE1B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93ED159822B0A2C6001EE9E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93ED159722B0A2C6001EE9E6 /* XJIM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93ED159922B0A2C6001EE9E6 /* XJIM */ = {
+			isa = PBXGroup;
+			children = (
+				93E53F1022B2768D00CDA4E4 /* IMNetworkSDK */,
+				93ED15B022B0CF17001EE9E6 /* AppDelegate */,
+				93ED15A022B0A2C6001EE9E6 /* Main.storyboard */,
+				93ED15A322B0A2C7001EE9E6 /* Assets.xcassets */,
+				93ED15A522B0A2C7001EE9E6 /* LaunchScreen.storyboard */,
+				93ED15A822B0A2C7001EE9E6 /* Info.plist */,
+				93ED15A922B0A2C7001EE9E6 /* main.m */,
+			);
+			path = XJIM;
+			sourceTree = "<group>";
+		};
+		93ED15B022B0CF17001EE9E6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				93ED159A22B0A2C6001EE9E6 /* AppDelegate.h */,
+				93ED159B22B0A2C6001EE9E6 /* AppDelegate.m */,
+				93ED159D22B0A2C6001EE9E6 /* ViewController.h */,
+				93ED159E22B0A2C6001EE9E6 /* ViewController.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9A62782EF572AD8A2A3FBF68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EC261792ACBF914EFADC0B1 /* Pods-XJIM.debug.xcconfig */,
+				15BC308D218592F812E51B46 /* Pods-XJIM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93ED159622B0A2C6001EE9E6 /* XJIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93ED15AD22B0A2C7001EE9E6 /* Build configuration list for PBXNativeTarget "XJIM" */;
+			buildPhases = (
+				BCFBBBCA8CFBEF8A56B967A3 /* [CP] Check Pods Manifest.lock */,
+				93ED159322B0A2C6001EE9E6 /* Sources */,
+				93ED159422B0A2C6001EE9E6 /* Frameworks */,
+				93ED159522B0A2C6001EE9E6 /* Resources */,
+				6D5BD004DA103A055F855D6B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XJIM;
+			productName = XJIM;
+			productReference = 93ED159722B0A2C6001EE9E6 /* XJIM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93ED158F22B0A2C6001EE9E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ouwen;
+				TargetAttributes = {
+					93ED159622B0A2C6001EE9E6 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 93ED159222B0A2C6001EE9E6 /* Build configuration list for PBXProject "XJIM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93ED158E22B0A2C6001EE9E6;
+			productRefGroup = 93ED159822B0A2C6001EE9E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93ED159622B0A2C6001EE9E6 /* XJIM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93ED159522B0A2C6001EE9E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93ED15A722B0A2C7001EE9E6 /* LaunchScreen.storyboard in Resources */,
+				93ED15A422B0A2C7001EE9E6 /* Assets.xcassets in Resources */,
+				93ED15A222B0A2C6001EE9E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D5BD004DA103A055F855D6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XJIM/Pods-XJIM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XJIM/Pods-XJIM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XJIM/Pods-XJIM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCFBBBCA8CFBEF8A56B967A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XJIM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93ED159322B0A2C6001EE9E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E53F4722B2768D00CDA4E4 /* MsgChat.pbobjc.m in Sources */,
+				93E53F4422B2768D00CDA4E4 /* SendMsgModel.m in Sources */,
+				93E53F5322B2768D00CDA4E4 /* MsgType.pbobjc.m in Sources */,
+				93ED159F22B0A2C6001EE9E6 /* ViewController.m in Sources */,
+				93ED15AA22B0A2C7001EE9E6 /* main.m in Sources */,
+				93E53F4B22B2768D00CDA4E4 /* MsgTyping.pbobjc.m in Sources */,
+				93E53F5222B2768D00CDA4E4 /* MsgStatuscode.pbobjc.m in Sources */,
+				93E53F4622B2768D00CDA4E4 /* Reachability.m in Sources */,
+				93E53F4322B2768D00CDA4E4 /* SocketManager.m in Sources */,
+				93E53F4A22B2768D00CDA4E4 /* MsgHeader.pbobjc.m in Sources */,
+				93E53F5B22B2768D00CDA4E4 /* MsgLogin.pbobjc.m in Sources */,
+				93E53F5822B2768D00CDA4E4 /* MsgHeartbeat.pbobjc.m in Sources */,
+				93E53F5022B2768D00CDA4E4 /* MsgRegist.pbobjc.m in Sources */,
+				93E53F4F22B2768D00CDA4E4 /* MsgLogout.pbobjc.m in Sources */,
+				93E53F4E22B2768D00CDA4E4 /* MsgShake.pbobjc.m in Sources */,
+				93ED159C22B0A2C6001EE9E6 /* AppDelegate.m in Sources */,
+				93E53F4522B2768D00CDA4E4 /* ChatManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93ED15A022B0A2C6001EE9E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93ED15A122B0A2C6001EE9E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93ED15A522B0A2C7001EE9E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93ED15A622B0A2C7001EE9E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93ED15AB22B0A2C7001EE9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93ED15AC22B0A2C7001EE9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93ED15AE22B0A2C7001EE9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC261792ACBF914EFADC0B1 /* Pods-XJIM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8XSPV28DU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XJIM/Config/PrefixHeader.pch";
+				INFOPLIST_FILE = XJIM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hnxj.XJIM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		93ED15AF22B0A2C7001EE9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15BC308D218592F812E51B46 /* Pods-XJIM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8XSPV28DU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XJIM/Config/PrefixHeader.pch";
+				INFOPLIST_FILE = XJIM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hnxj.XJIM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93ED159222B0A2C6001EE9E6 /* Build configuration list for PBXProject "XJIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93ED15AB22B0A2C7001EE9E6 /* Debug */,
+				93ED15AC22B0A2C7001EE9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93ED15AD22B0A2C7001EE9E6 /* Build configuration list for PBXNativeTarget "XJIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93ED15AE22B0A2C7001EE9E6 /* Debug */,
+				93ED15AF22B0A2C7001EE9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93ED158F22B0A2C6001EE9E6 /* Project object */;
+}

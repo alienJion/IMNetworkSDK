@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  XJIM
+//
+//  Created by Alien on 2019/6/12.
+//  Copyright © 2019 ouwen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "UIHeader.h"//UI
+#import "RequestHeader.h"//请求
+#import "FileHeader.h"//文件
+#import "MsgProtobufHeader.h"//pb文件
+
+#endif /* PrefixHeader_pch */
