@@ -63,7 +63,7 @@
     NSLog(@"socket连接成功");
     [self addBeatTimer];//发送心跳包
     //    [self sendDataToServer];
-    [self.sendMessageject sendNext:sock];
+//    [self.sendMessageject sendNext:sock];
     //记录连接成功状态
     self.linkStatus = LinkStatus_Linked;
     if (self.delegate && [self.delegate respondsToSelector:@selector(socketDidConnectToHost:port:)])
@@ -209,21 +209,4 @@
     }
     
 }
-
-
-
-
-
-
-
-
-
-
--(RACSubject *)sendMessageject{
-    if (_sendMessageject == nil) {
-        _sendMessageject = [RACSubject subject];
-    }
-    return _sendMessageject;
-}
-
 @end

@@ -9,7 +9,7 @@
 #ifndef FileHeader_h
 #define FileHeader_h
 
-#import <ReactiveObjC/ReactiveObjC.h>
+//#import <ReactiveObjC/ReactiveObjC.h>
 #import <Protobuf/Protobuf-umbrella.h>
 #import "SocketManager.h"
 #endif /* FileHeader_h */

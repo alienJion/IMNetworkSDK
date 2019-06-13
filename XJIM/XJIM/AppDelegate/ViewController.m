@@ -27,10 +27,10 @@
 //    ChatManager *chatManager = [ChatManager shareInstance];
 //    [chatManager sendTextMessage:@"alien" toUser:1223343 ext:nil];
     _socketManager = [SocketManager shareInstance];
-    [_socketManager.sendMessageject subscribeNext:^(GCDAsyncSocket *sock) {
-        //        连接成功
-        
-    }];
+//    [_socketManager.sendMessageject subscribeNext:^(GCDAsyncSocket *sock) {
+//        //        连接成功
+//        
+//    }];
     [_socketManager connectToServer];
 }
 @end

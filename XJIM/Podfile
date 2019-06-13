@@ -14,8 +14,8 @@ target 'XJIM' do
 #  pod 'TZImagePickerController', '~> 3.0.8'
 #  pod 'DZNEmptyDataSet', '~> 1.8.1'
 #  pod 'FMDB', '~>2.7.5'
-  pod 'ReactiveObjC', '~> 3.1.0'
-  pod'matrix-wechat'#腾讯卡顿检查、崩溃
+#  pod 'ReactiveObjC', '~> 3.1.0'
+#  pod'matrix-wechat'#腾讯卡顿检查、崩溃
 #  pod 'YYModel'
 #  pod 'YYCache'
 #  pod 'YYWebImage'

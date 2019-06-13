@@ -40,8 +40,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "IMNetworkSDK", "IMNetworkSDK/**/*.{h,m}"
-  # s.source_files  = 'IMNetworkSDK/*.{h,m}'
+  spec.source_files  = "**/*/*.{h,m}"
+  # spec.source_files  = 'IMNetworkSDK/*.{h,m}'
   spec.frameworks = "UIKit", "Foundation"  #需要导入的frameworks名称，注意不要带上frameworks
 
   spec.dependency "ReactiveObjC", "~> 3.1.0" #依赖的第三方库
