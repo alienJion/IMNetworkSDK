@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MsgHeader.pbobjc.h"//消息头
+#import "MsgHeaderpbobjc.h"//消息头
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SendMsgModel : NSObject

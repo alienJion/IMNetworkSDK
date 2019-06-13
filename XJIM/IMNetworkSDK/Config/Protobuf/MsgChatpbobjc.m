@@ -13,7 +13,7 @@
  #import "GPBProtocolBuffers_RuntimeSupport.h"
 #endif
 
-#import "MsgChat.pbobjc.h"
+#import "MsgChatpbobjc.h"
 // @@protoc_insertion_point(imports)
 
 #pragma clang diagnostic push

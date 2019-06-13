@@ -15,7 +15,7 @@
 
 #import <stdatomic.h>
 
-#import "MsgStatuscode.pbobjc.h"
+#import "MsgStatuscodepbobjc.h"
 // @@protoc_insertion_point(imports)
 
 #pragma clang diagnostic push

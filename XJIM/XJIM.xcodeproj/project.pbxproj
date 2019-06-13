@@ -11,16 +11,16 @@
 		93E53F4422B2768D00CDA4E4 /* SendMsgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F1622B2768D00CDA4E4 /* SendMsgModel.m */; };
 		93E53F4522B2768D00CDA4E4 /* ChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F1922B2768D00CDA4E4 /* ChatManager.m */; };
 		93E53F4622B2768D00CDA4E4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F1B22B2768D00CDA4E4 /* Reachability.m */; };
-		93E53F4722B2768D00CDA4E4 /* MsgChat.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F2322B2768D00CDA4E4 /* MsgChat.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		93E53F4A22B2768D00CDA4E4 /* MsgHeader.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F2622B2768D00CDA4E4 /* MsgHeader.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		93E53F4B22B2768D00CDA4E4 /* MsgTyping.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F2A22B2768D00CDA4E4 /* MsgTyping.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		93E53F4E22B2768D00CDA4E4 /* MsgShake.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F2E22B2768D00CDA4E4 /* MsgShake.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		93E53F4F22B2768D00CDA4E4 /* MsgLogout.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F2F22B2768D00CDA4E4 /* MsgLogout.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		93E53F5022B2768D00CDA4E4 /* MsgRegist.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F3022B2768D00CDA4E4 /* MsgRegist.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		93E53F5222B2768D00CDA4E4 /* MsgStatuscode.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F3422B2768D00CDA4E4 /* MsgStatuscode.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		93E53F5322B2768D00CDA4E4 /* MsgType.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F3522B2768D00CDA4E4 /* MsgType.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		93E53F5822B2768D00CDA4E4 /* MsgHeartbeat.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F3E22B2768D00CDA4E4 /* MsgHeartbeat.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		93E53F5B22B2768D00CDA4E4 /* MsgLogin.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F4222B2768D00CDA4E4 /* MsgLogin.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F7322B2826800CDA4E4 /* MsgLoginpbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F6122B2826700CDA4E4 /* MsgLoginpbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F7422B2826800CDA4E4 /* MsgShakepbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F6322B2826700CDA4E4 /* MsgShakepbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F7522B2826800CDA4E4 /* MsgTypepbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F6622B2826700CDA4E4 /* MsgTypepbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F7622B2826800CDA4E4 /* MsgChatpbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F6822B2826700CDA4E4 /* MsgChatpbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F7722B2826800CDA4E4 /* MsgTypingpbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F6922B2826700CDA4E4 /* MsgTypingpbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F7822B2826800CDA4E4 /* MsgLogoutpbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F6A22B2826700CDA4E4 /* MsgLogoutpbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F7922B2826800CDA4E4 /* MsgRegistpbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F6B22B2826700CDA4E4 /* MsgRegistpbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F7A22B2826800CDA4E4 /* MsgHeaderpbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F6C22B2826700CDA4E4 /* MsgHeaderpbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F7B22B2826800CDA4E4 /* MsgStatuscodepbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F6D22B2826700CDA4E4 /* MsgStatuscodepbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E53F7C22B2826800CDA4E4 /* MsgHeartbeatpbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E53F7222B2826800CDA4E4 /* MsgHeartbeatpbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		93ED159C22B0A2C6001EE9E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93ED159B22B0A2C6001EE9E6 /* AppDelegate.m */; };
 		93ED159F22B0A2C6001EE9E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93ED159E22B0A2C6001EE9E6 /* ViewController.m */; };
 		93ED15A222B0A2C6001EE9E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93ED15A022B0A2C6001EE9E6 /* Main.storyboard */; };
@@ -45,27 +45,27 @@
 		93E53F1F22B2768D00CDA4E4 /* UIHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHeader.h; sourceTree = "<group>"; };
 		93E53F2022B2768D00CDA4E4 /* RequestHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestHeader.h; sourceTree = "<group>"; };
 		93E53F2122B2768D00CDA4E4 /* FileHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHeader.h; sourceTree = "<group>"; };
-		93E53F2322B2768D00CDA4E4 /* MsgChat.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgChat.pbobjc.m; sourceTree = "<group>"; };
-		93E53F2622B2768D00CDA4E4 /* MsgHeader.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgHeader.pbobjc.m; sourceTree = "<group>"; };
-		93E53F2722B2768D00CDA4E4 /* MsgType.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgType.pbobjc.h; sourceTree = "<group>"; };
 		93E53F2822B2768D00CDA4E4 /* MsgProtobufHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgProtobufHeader.h; sourceTree = "<group>"; };
-		93E53F2922B2768D00CDA4E4 /* MsgStatuscode.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgStatuscode.pbobjc.h; sourceTree = "<group>"; };
-		93E53F2A22B2768D00CDA4E4 /* MsgTyping.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgTyping.pbobjc.m; sourceTree = "<group>"; };
-		93E53F2B22B2768D00CDA4E4 /* MsgHeartbeat.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgHeartbeat.pbobjc.h; sourceTree = "<group>"; };
-		93E53F2E22B2768D00CDA4E4 /* MsgShake.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgShake.pbobjc.m; sourceTree = "<group>"; };
-		93E53F2F22B2768D00CDA4E4 /* MsgLogout.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgLogout.pbobjc.m; sourceTree = "<group>"; };
-		93E53F3022B2768D00CDA4E4 /* MsgRegist.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgRegist.pbobjc.m; sourceTree = "<group>"; };
-		93E53F3122B2768D00CDA4E4 /* MsgLogin.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgLogin.pbobjc.h; sourceTree = "<group>"; };
-		93E53F3322B2768D00CDA4E4 /* MsgChat.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgChat.pbobjc.h; sourceTree = "<group>"; };
-		93E53F3422B2768D00CDA4E4 /* MsgStatuscode.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgStatuscode.pbobjc.m; sourceTree = "<group>"; };
-		93E53F3522B2768D00CDA4E4 /* MsgType.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgType.pbobjc.m; sourceTree = "<group>"; };
-		93E53F3622B2768D00CDA4E4 /* MsgHeader.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgHeader.pbobjc.h; sourceTree = "<group>"; };
-		93E53F3722B2768D00CDA4E4 /* MsgRegist.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgRegist.pbobjc.h; sourceTree = "<group>"; };
-		93E53F3822B2768D00CDA4E4 /* MsgLogout.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgLogout.pbobjc.h; sourceTree = "<group>"; };
-		93E53F3B22B2768D00CDA4E4 /* MsgShake.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgShake.pbobjc.h; sourceTree = "<group>"; };
-		93E53F3E22B2768D00CDA4E4 /* MsgHeartbeat.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgHeartbeat.pbobjc.m; sourceTree = "<group>"; };
-		93E53F4022B2768D00CDA4E4 /* MsgTyping.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgTyping.pbobjc.h; sourceTree = "<group>"; };
-		93E53F4222B2768D00CDA4E4 /* MsgLogin.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgLogin.pbobjc.m; sourceTree = "<group>"; };
+		93E53F5F22B2810D00CDA4E4 /* MsgChatpbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgChatpbobjc.h; sourceTree = "<group>"; };
+		93E53F6022B2826700CDA4E4 /* MsgRegistpbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgRegistpbobjc.h; sourceTree = "<group>"; };
+		93E53F6122B2826700CDA4E4 /* MsgLoginpbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgLoginpbobjc.m; sourceTree = "<group>"; };
+		93E53F6222B2826700CDA4E4 /* MsgHeaderpbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgHeaderpbobjc.h; sourceTree = "<group>"; };
+		93E53F6322B2826700CDA4E4 /* MsgShakepbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgShakepbobjc.m; sourceTree = "<group>"; };
+		93E53F6422B2826700CDA4E4 /* MsgHeartbeatpbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgHeartbeatpbobjc.h; sourceTree = "<group>"; };
+		93E53F6522B2826700CDA4E4 /* MsgLoginpbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgLoginpbobjc.h; sourceTree = "<group>"; };
+		93E53F6622B2826700CDA4E4 /* MsgTypepbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgTypepbobjc.m; sourceTree = "<group>"; };
+		93E53F6722B2826700CDA4E4 /* MsgStatuscodepbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgStatuscodepbobjc.h; sourceTree = "<group>"; };
+		93E53F6822B2826700CDA4E4 /* MsgChatpbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgChatpbobjc.m; sourceTree = "<group>"; };
+		93E53F6922B2826700CDA4E4 /* MsgTypingpbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgTypingpbobjc.m; sourceTree = "<group>"; };
+		93E53F6A22B2826700CDA4E4 /* MsgLogoutpbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgLogoutpbobjc.m; sourceTree = "<group>"; };
+		93E53F6B22B2826700CDA4E4 /* MsgRegistpbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgRegistpbobjc.m; sourceTree = "<group>"; };
+		93E53F6C22B2826700CDA4E4 /* MsgHeaderpbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgHeaderpbobjc.m; sourceTree = "<group>"; };
+		93E53F6D22B2826700CDA4E4 /* MsgStatuscodepbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgStatuscodepbobjc.m; sourceTree = "<group>"; };
+		93E53F6E22B2826800CDA4E4 /* MsgLogoutpbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgLogoutpbobjc.h; sourceTree = "<group>"; };
+		93E53F6F22B2826800CDA4E4 /* MsgTypepbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgTypepbobjc.h; sourceTree = "<group>"; };
+		93E53F7022B2826800CDA4E4 /* MsgShakepbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgShakepbobjc.h; sourceTree = "<group>"; };
+		93E53F7122B2826800CDA4E4 /* MsgTypingpbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgTypingpbobjc.h; sourceTree = "<group>"; };
+		93E53F7222B2826800CDA4E4 /* MsgHeartbeatpbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgHeartbeatpbobjc.m; sourceTree = "<group>"; };
 		93ED159722B0A2C6001EE9E6 /* XJIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93ED159A22B0A2C6001EE9E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		93ED159B22B0A2C6001EE9E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -168,27 +168,27 @@
 		93E53F2222B2768D00CDA4E4 /* Protobuf */ = {
 			isa = PBXGroup;
 			children = (
-				93E53F3322B2768D00CDA4E4 /* MsgChat.pbobjc.h */,
-				93E53F2322B2768D00CDA4E4 /* MsgChat.pbobjc.m */,
-				93E53F3622B2768D00CDA4E4 /* MsgHeader.pbobjc.h */,
-				93E53F2622B2768D00CDA4E4 /* MsgHeader.pbobjc.m */,
-				93E53F2B22B2768D00CDA4E4 /* MsgHeartbeat.pbobjc.h */,
-				93E53F3E22B2768D00CDA4E4 /* MsgHeartbeat.pbobjc.m */,
-				93E53F3122B2768D00CDA4E4 /* MsgLogin.pbobjc.h */,
-				93E53F4222B2768D00CDA4E4 /* MsgLogin.pbobjc.m */,
-				93E53F3822B2768D00CDA4E4 /* MsgLogout.pbobjc.h */,
-				93E53F2F22B2768D00CDA4E4 /* MsgLogout.pbobjc.m */,
+				93E53F5F22B2810D00CDA4E4 /* MsgChatpbobjc.h */,
 				93E53F2822B2768D00CDA4E4 /* MsgProtobufHeader.h */,
-				93E53F3722B2768D00CDA4E4 /* MsgRegist.pbobjc.h */,
-				93E53F3022B2768D00CDA4E4 /* MsgRegist.pbobjc.m */,
-				93E53F3B22B2768D00CDA4E4 /* MsgShake.pbobjc.h */,
-				93E53F2E22B2768D00CDA4E4 /* MsgShake.pbobjc.m */,
-				93E53F2922B2768D00CDA4E4 /* MsgStatuscode.pbobjc.h */,
-				93E53F3422B2768D00CDA4E4 /* MsgStatuscode.pbobjc.m */,
-				93E53F2722B2768D00CDA4E4 /* MsgType.pbobjc.h */,
-				93E53F3522B2768D00CDA4E4 /* MsgType.pbobjc.m */,
-				93E53F4022B2768D00CDA4E4 /* MsgTyping.pbobjc.h */,
-				93E53F2A22B2768D00CDA4E4 /* MsgTyping.pbobjc.m */,
+				93E53F6822B2826700CDA4E4 /* MsgChatpbobjc.m */,
+				93E53F6222B2826700CDA4E4 /* MsgHeaderpbobjc.h */,
+				93E53F6C22B2826700CDA4E4 /* MsgHeaderpbobjc.m */,
+				93E53F6422B2826700CDA4E4 /* MsgHeartbeatpbobjc.h */,
+				93E53F7222B2826800CDA4E4 /* MsgHeartbeatpbobjc.m */,
+				93E53F6522B2826700CDA4E4 /* MsgLoginpbobjc.h */,
+				93E53F6122B2826700CDA4E4 /* MsgLoginpbobjc.m */,
+				93E53F6E22B2826800CDA4E4 /* MsgLogoutpbobjc.h */,
+				93E53F6A22B2826700CDA4E4 /* MsgLogoutpbobjc.m */,
+				93E53F6022B2826700CDA4E4 /* MsgRegistpbobjc.h */,
+				93E53F6B22B2826700CDA4E4 /* MsgRegistpbobjc.m */,
+				93E53F7022B2826800CDA4E4 /* MsgShakepbobjc.h */,
+				93E53F6322B2826700CDA4E4 /* MsgShakepbobjc.m */,
+				93E53F6722B2826700CDA4E4 /* MsgStatuscodepbobjc.h */,
+				93E53F6D22B2826700CDA4E4 /* MsgStatuscodepbobjc.m */,
+				93E53F6F22B2826800CDA4E4 /* MsgTypepbobjc.h */,
+				93E53F6622B2826700CDA4E4 /* MsgTypepbobjc.m */,
+				93E53F7122B2826800CDA4E4 /* MsgTypingpbobjc.h */,
+				93E53F6922B2826700CDA4E4 /* MsgTypingpbobjc.m */,
 			);
 			path = Protobuf;
 			sourceTree = "<group>";
@@ -359,23 +359,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93E53F4722B2768D00CDA4E4 /* MsgChat.pbobjc.m in Sources */,
 				93E53F4422B2768D00CDA4E4 /* SendMsgModel.m in Sources */,
-				93E53F5322B2768D00CDA4E4 /* MsgType.pbobjc.m in Sources */,
+				93E53F7522B2826800CDA4E4 /* MsgTypepbobjc.m in Sources */,
+				93E53F7722B2826800CDA4E4 /* MsgTypingpbobjc.m in Sources */,
+				93E53F7A22B2826800CDA4E4 /* MsgHeaderpbobjc.m in Sources */,
 				93ED159F22B0A2C6001EE9E6 /* ViewController.m in Sources */,
+				93E53F7422B2826800CDA4E4 /* MsgShakepbobjc.m in Sources */,
+				93E53F7B22B2826800CDA4E4 /* MsgStatuscodepbobjc.m in Sources */,
+				93E53F7C22B2826800CDA4E4 /* MsgHeartbeatpbobjc.m in Sources */,
+				93E53F7622B2826800CDA4E4 /* MsgChatpbobjc.m in Sources */,
 				93ED15AA22B0A2C7001EE9E6 /* main.m in Sources */,
-				93E53F4B22B2768D00CDA4E4 /* MsgTyping.pbobjc.m in Sources */,
-				93E53F5222B2768D00CDA4E4 /* MsgStatuscode.pbobjc.m in Sources */,
+				93E53F7922B2826800CDA4E4 /* MsgRegistpbobjc.m in Sources */,
+				93E53F7322B2826800CDA4E4 /* MsgLoginpbobjc.m in Sources */,
 				93E53F4622B2768D00CDA4E4 /* Reachability.m in Sources */,
 				93E53F4322B2768D00CDA4E4 /* SocketManager.m in Sources */,
-				93E53F4A22B2768D00CDA4E4 /* MsgHeader.pbobjc.m in Sources */,
-				93E53F5B22B2768D00CDA4E4 /* MsgLogin.pbobjc.m in Sources */,
-				93E53F5822B2768D00CDA4E4 /* MsgHeartbeat.pbobjc.m in Sources */,
-				93E53F5022B2768D00CDA4E4 /* MsgRegist.pbobjc.m in Sources */,
-				93E53F4F22B2768D00CDA4E4 /* MsgLogout.pbobjc.m in Sources */,
-				93E53F4E22B2768D00CDA4E4 /* MsgShake.pbobjc.m in Sources */,
 				93ED159C22B0A2C6001EE9E6 /* AppDelegate.m in Sources */,
 				93E53F4522B2768D00CDA4E4 /* ChatManager.m in Sources */,
+				93E53F7822B2826800CDA4E4 /* MsgLogoutpbobjc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,7 +15,7 @@
 
 #import <stdatomic.h>
 
-#import "MsgHeader.pbobjc.h"
+#import "MsgHeaderpbobjc.h"
 
 // @@protoc_insertion_point(imports)
 

@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "IMNetworkSDK"  #存储库名称
-  spec.version      = "0.0.1" #版本号，与tag值一致
+  spec.version      = "1.0.0" #版本号，与tag值一致
   spec.summary      = "A short description of IMNetworkSDK."#简介
 
   spec.description  = "Protobuf+CocoaAsyncSocket，建立IM基础SDK"#描述
@@ -29,9 +29,6 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "9.0"#支持的平台和版本号
 
-
-  #
-
   spec.source       = { :git => "https://github.com/alienJion/IMNetworkSDK.git", :tag => "1.0.0" }
 
 
@@ -43,13 +40,13 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # spec.source_files  = "IMNetworkSDK", "IMNetworkSDK/**/*.{h,m}"
-  s.source_files  = 'IMNetworkSDK/*.{h,m}'
-  s.frameworks = "UIKit", "Foundation"  #需要导入的frameworks名称，注意不要带上frameworks
+  spec.source_files  = "IMNetworkSDK", "IMNetworkSDK/**/*.{h,m}"
+  # s.source_files  = 'IMNetworkSDK/*.{h,m}'
+  spec.frameworks = "UIKit", "Foundation"  #需要导入的frameworks名称，注意不要带上frameworks
 
-  s.dependency "ReactiveObjC", "~> 3.1.0" #依赖的第三方库
-  s.dependency "CocoaAsyncSocket"      #依赖的第三方库
-  s.dependency "Protobuf"      #依赖的第三方库
+  spec.dependency "ReactiveObjC", "~> 3.1.0" #依赖的第三方库
+  spec.dependency "CocoaAsyncSocket"      #依赖的第三方库
+  spec.dependency "Protobuf"      #依赖的第三方库
 
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
