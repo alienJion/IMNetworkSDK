@@ -16,7 +16,7 @@ target 'XJIM' do
 #  pod 'FMDB', '~>2.7.5'
 #  pod 'ReactiveObjC', '~> 3.1.0'
 #  pod'matrix-wechat'#腾讯卡顿检查、崩溃
-#  pod 'YYModel'
+  pod 'YYModel'
 #  pod 'YYCache'
 #  pod 'YYWebImage'
   #IM

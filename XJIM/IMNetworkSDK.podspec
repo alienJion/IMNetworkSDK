@@ -45,8 +45,8 @@ Pod::Spec.new do |spec|
   spec.frameworks = "UIKit", "Foundation"  #需要导入的frameworks名称，注意不要带上frameworks
 
 
-  spec.dependency "CocoaAsyncSocket"      #依赖的第三方库
-  spec.dependency "Protobuf"      #依赖的第三方库
+  # spec.dependency "CocoaAsyncSocket"      #依赖的第三方库
+  spec.dependency "YYModel"      #依赖的第三方库
 
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
