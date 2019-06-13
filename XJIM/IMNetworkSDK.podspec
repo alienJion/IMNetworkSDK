@@ -44,7 +44,7 @@ Pod::Spec.new do |spec|
   # spec.source_files  = 'IMNetworkSDK/*.{h,m}'
   spec.frameworks = "UIKit", "Foundation"  #需要导入的frameworks名称，注意不要带上frameworks
 
-  spec.dependency "ReactiveObjC", "~> 3.1.0" #依赖的第三方库
+
   spec.dependency "CocoaAsyncSocket"      #依赖的第三方库
   spec.dependency "Protobuf"      #依赖的第三方库
 
